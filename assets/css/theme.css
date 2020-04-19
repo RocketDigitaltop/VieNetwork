@@ -4609,6 +4609,8 @@ input[type="button"].btn-block {
     display: flex !important;
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
+        position: absolute;
+    right: 0;
   }
   .navbar-expand-md .navbar-toggler {
     display: none;
@@ -14944,8 +14946,12 @@ button:focus {
 
 @media (max-width: 767.98px) {
   .navbar-expand-md .u-header__nav-last-item {
-    display: none;
+    display: block;
   }
+  .u-header__nav-last-item .btn {
+    width: 100%;
+    margin-top: 10px;
+}
   .navbar-expand-md .u-header__nav-link,
   .navbar-expand-md .u-header__sub-menu-nav-link {
     display: -ms-flexbox;
@@ -18164,6 +18170,10 @@ label.btn {
 .card-columns .card {
   display: inline-block;
   width: 100%;
+}
+@media (max-width: 576px){
+  .card .text-right .text-primary {
+    font-size: 1.4em;
 }
 
 @media (min-width: 576px) {
@@ -23594,3 +23604,8 @@ img.footer-logo:hover {filter: grayscale(0);}
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
+@media (max-width: 576px){
+  .card .text-right .text-primary {
+    font-size: 1.4em;
+}
+}
