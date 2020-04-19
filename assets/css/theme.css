@@ -4614,7 +4614,7 @@ input[type="button"].btn-block {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 567px) {
   .navbar-expand-md .navbar-collapse {
     position: absolute;
     right: 0;
