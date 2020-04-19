@@ -18171,9 +18171,13 @@ label.btn {
   display: inline-block;
   width: 100%;
 }
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .card .text-right .text-primary {
     font-size: 1.4em;
+  }
+  .mb-10 {
+    margin-bottom: 0 !important;
+  }
 }
 
 @media (min-width: 576px) {
