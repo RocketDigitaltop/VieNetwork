@@ -13218,6 +13218,7 @@ button:focus {
   left: 0;
   width: 100%;
   z-index: 1001;
+  top: 10px;
 }
 
 .u-header__section {
@@ -13257,7 +13258,7 @@ button:focus {
 /* Navbar Brand */
 .u-header__navbar-brand,
 .u-header__navbar-brand > img {
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 0;
   width: 4.7rem;
 }
