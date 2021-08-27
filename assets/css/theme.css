@@ -13213,12 +13213,13 @@ button:focus {
   Header Default
 ------------------------------------*/
 .u-header {
-  position: relative;
+  position: fixed;
   right: 0;
   left: 0;
   width: 100%;
   z-index: 1001;
-  top: 10px;
+      background-color: #fff;
+    box-shadow: 0 4px 20px rgb(255 55 101 / 10%);
 }
 
 .u-header__section {
@@ -13260,7 +13261,7 @@ button:focus {
 .u-header__navbar-brand > img {
   padding-top: 0;
   padding-bottom: 0;
-  width: 4.7rem;
+  width: 150px;
 }
 
 .u-header__navbar-brand-center {
@@ -23617,3 +23618,14 @@ img.footer-logo:hover {filter: grayscale(0);}
     font-size: 1.4em;
 }
 }
+span.d-block.text-dark.font-weight-medium {
+    font-family: 'Roboto';
+}
+.u-header__promo-title, .u-header__promo-text {
+    font-family: 'Roboto';
+}
+a.list-group-item.list-group-item-action.d-flex.justify-content-between.align-items-center {
+    font-family: 'Roboto';
+}
+@media (max-width:575.98px){.hidden-xs{display:none!important}.u-header__navbar-brand-center{padding: 10px 0;}}
+@media (min-width:576px){.visible-xs{display:none!important}}
